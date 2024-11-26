@@ -1,3 +1,4 @@
 # kritika-s
 Kirtika
-Propagation of uncertainty can lead to false positives (verifying fraudulent identities) or false negatives (failing to verify legitimate identities), potentially impacting compliance with regulatory requirements like KYC and AML.
+
+The identity verification process in Trulioo eIDV is entirely rule-based, relying on predefined business rules and logic to ensure compliance and transparency in verifying structured data like names and addresses. As a result, machine learning (ML) is not used for identity verification. However, Trulioo's document verification process employs AI/ML techniques to detect tampering, validate security features, and process image data more effectively. 
