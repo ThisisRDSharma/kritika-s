@@ -1,15 +1,26 @@
 # kritika-s
 Kirtika
 
-Document Resource Management:
+OAuth (Open Authorization) and mTLS (Mutual Transport Layer Security) are security protocols designed to ensure robust, secure, and trustworthy data exchange in online verification and communication systems, such as Trulioo's global identity verification platform. Here's how they are used:
 
-AssureID enables the uploading of individual document resources, including image files, binary data files, and results of contactless chip authentication, ensuring comprehensive data capture for analysis.
-Automated Image Processing:
+1. OAuth (Open Authorization):
+OAuth is a widely adopted authorization framework that allows applications to access user data securely without exposing sensitive information such as passwords.
 
-The platform automatically detects and crops a document from within the uploaded image, enhancing efficiency and consistency during data extraction.
-Data Transformation and Transfer:
+Purpose:
+Secure delegated access, where third-party services can request limited access to user resources without requiring login credentials.
+Minimize risk of credential theft during authorization.
+Use in Verification:
+Ensures user consent and secure authorization during identity verification processes, preventing unauthorized data access.
+2. mTLS (Mutual Transport Layer Security):
+mTLS is an extension of TLS (used in HTTPS) that requires both the server and the client to authenticate each other via digital certificates.
 
-Transforms extracted document data into usable formats and transfers it via XML or JavaScript Object Notation (JSON), providing flexibility and compatibility with various downstream applications.
-Integration and Extensibility:
+Purpose:
+Provides an additional layer of trust by confirming the identities of both parties in a connection.
+Protects data integrity and confidentiality during communication.
+Use in Verification:
+Ensures that data exchanged between the verification platform (like Trulioo) and its clients or users is secure and comes from authenticated sources.
+Mitigates risks like man-in-the-middle attacks.
+By using OAuth and mTLS, Trulioo establishes a secure, compliant, and trusted framework for conducting worldwide identity verification. This ensures regulatory compliance (e.g., GDPR, CCPA) and enhances user privacy and data security. Let me know if further details are needed!
 
-Integrates seamlessly with existing or new applications using the included .NET SDK or the REST API, enabling streamlined data preparation workflows tailored to specific model requirements.
+Identity and document verification involve the exchange of sensitive data like government-issued ID details, biometrics, and cryptographic information. Both OAuth and mTLS:
+Safeguard against unauthorized access and ensure that only authenticated systems can participate in the verification process.
