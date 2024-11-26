@@ -1,11 +1,12 @@
 # kritika-s
 Kirtika
 
-Applicable Policies and Regulations for Trulioo eIDV Model
-The Trulioo eIDV (Electronic Identity Verification) model aligns with BSA (Bank Secrecy Act) regulatory requirements, supporting digital banking and non-resident alien customer identification as part of a Customer Identification Program (CIP).
+Assumption Description
+The Trulioo eIDV model relies on data sources that are frequently updated to ensure relevance, accuracy, and alignment with evolving regulatory and client requirements. These updates address emerging client needs and enhance the model's effectiveness in identity verification processes.
 
-Compliance with BSA Requirements:
-The model is designed to collect necessary information about customers, including government-issued identification for international customers. This ensures adherence to Know Your Customer (KYC) requirements.
-
-Mismatch Escalation:
-In cases where mismatches occur during the identity verification process, the model escalates these cases to the BSA OFAC (Office of Foreign Assets Control) group for review and resolution. This process supports compliance with anti-money laundering (AML) and counter-terrorist financing (CTF) mandates under BSA regulations.
+Rationale for This Assumption
+Dynamic Compliance Needs: Regulatory frameworks and verification requirements for digital identity are constantly changing globally, necessitating frequent updates to data sources.
+Evolving Fraud Patterns: New fraud techniques require access to the latest and most relevant datasets to maintain robust verification capabilities.
+Client Diversity: Trulioo's global client base includes entities with varying requirements, driving the need for a versatile and up-to-date data pool to support region-specific and industry-specific use cases.
+Materiality of the Assumption
+High Materiality: The frequent updating of data sources is critical to ensuring the accuracy and reliability of the Trulioo eIDV model. Without these updates, the model's ability to perform effective identity verification could be compromised, leading to higher false negatives or positives, regulatory non-compliance, and reduced client trust.
