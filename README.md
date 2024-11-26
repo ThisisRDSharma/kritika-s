@@ -2,7 +2,7 @@
 Kirtika
 
 
+Data sampling is not relevant for the Trulioo eIDV process, as it is a rule-based system rather than a model-based one. Since the eIDV process uses predefined rules and data sources for identity verification, it does not require sampling for model training or validation.
 
-The data extraction process for the Trulioo eIDV system is integrated into the digital banking NRA onboarding flow, where real-time API calls are made to Trulioo's cloud-based solution to perform identity verification. Clients interested in integrating data sources can access support from the Trulioo Customer Success Team for portal or API/XML integration, ensuring seamless and efficient data extraction during the onboarding process for new applicants.
-
+Data sampling is the process of selecting a subset of data from a larger dataset to make statistical inferences or train machine learning models.
 
