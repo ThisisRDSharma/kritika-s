@@ -1,4 +1,4 @@
 # kritika-s
 Kirtika
 
-The match criteria are defined based on expert judgment and the evaluation of data quality through the aggregation of trusted sources. While the system operates with predefined rules, any necessary adjustments can be made to improve verification accuracy or align with evolving client needs and regulatory requirements.
+The Trulioo eIDV process does not rely on traditional model tuning analogous to statistical estimation, as it operates using a rule-based system rather than machine learning models. There are no documented instances of vendor model customizations in the provided information.
