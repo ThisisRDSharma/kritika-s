@@ -1,8 +1,10 @@
 # kritika-s
 Kirtika
 
-The Trulioo eIDV process is a rule-based system and does not utilize machine learning or statistical models, so traditional in-sample performance or fit testing is not applicable. The system operates deterministically, applying predefined business rules to verify identities against trusted data sources.
+The Trulioo eIDV process is a rule-based system, not a machine learning or statistical model, and therefore does not require traditional stability or overfitting testing. There are no estimated relationships or training datasets that could lead to overfitting in the conventional sense.
 
-Since the eIDV process does not involve model training, the concept of out-of-sample testing (where unseen data from the same time period is used to evaluate performance) is not directly applicable.
+Instead, the stability of the system is maintained through:
 
-In the absence of machine learning models, out-of-time testing (evaluating performance on data from a future time period) is not relevant to the Trulioo eIDV process. The system's reliance on regularly updated data sources ensures it remains current and effective over time. 
+Business Rule Validation: Predefined rules are rigorously tested for consistency and robustness during client-specific testing.
+Data Source Monitoring: Stability is ensured by continually validating the accuracy and reliability of the data sources (e.g., government databases, credit records).
+Periodic Updates: Regular updates to data sources and business rules ensure that the system remains effective over time, even as verification needs evolve. 
