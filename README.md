@@ -1,10 +1,8 @@
 # kritika-s
 Kirtika
 
-The Trulioo eIDV process is a rule-based system, not a machine learning or statistical model, and therefore does not require traditional stability or overfitting testing. There are no estimated relationships or training datasets that could lead to overfitting in the conventional sense.
+The model segmentation in iProov was based on key demographics, including age groups (18–30, 31–50, 51–60, 60+), gender (Male, Female), and ethnicity (Black, East Asian, South Asian, White), to ensure fair and unbiased performance across diverse user groups. Data for each demographic was collected over the months of April, May, and June. For each demographic group, the most commonly used devices during this period were identified, and transactions were sampled to maintain equal representation across demographics, devices (Dynamic Android, Dynamic iOS, Dynamic Web), and months. This balanced approach avoided overrepresentation of any specific group and ensured the model captured diverse user behaviors.
 
-Instead, the stability of the system is maintained through:
+Segmentation was structured to account for performance differences across devices and demographics. Analysis revealed small or no overlap in pass rate confidence intervals for ethnicities on Dynamic Android, attributed to regional differences in phone model distributions. For Dynamic iOS, a slight dip in performance for users aged 18–30 was linked to bright sunlight conditions during authentication. For Dynamic Web, lower pass rates for the 60+ age group were attributed to differences in device quality, as normalization by manufacturer was not feasible.
 
-Business Rule Validation: Predefined rules are rigorously tested for consistency and robustness during client-specific testing.
-Data Source Monitoring: Stability is ensured by continually validating the accuracy and reliability of the data sources (e.g., government databases, credit records).
-Periodic Updates: Regular updates to data sources and business rules ensure that the system remains effective over time, even as verification needs evolve. 
+This demographic-based segmentation ensured that the data was representative of the user base, enabling the model to identify and address disparities in performance metrics. The impact of this approach was significant, leading to improved fairness and reduced bias in model estimation. By balancing representation across demographics and analyzing pass rates and confidence intervals, the segmentation allowed for targeted adjustments, ensuring robust and equitable model outputs for all user groups.
