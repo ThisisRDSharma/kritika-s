@@ -1,4 +1,4 @@
 # kritika-s
 Kirtika
 
- Instead, segmentation is implemented as part of its data source matching logic, which groups input data by country, data availability, and verification requirements.
+The model estimation methodology is not applicable for the Trulioo eIDV process, as it does not use machine learning (ML) techniques or statistical estimation methods like Ordinary Least Squares (OLS). 
