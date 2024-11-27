@@ -1,4 +1,6 @@
 # kritika-s
 Kirtika
 
-The identity verification process in Trulioo eIDV is entirely rule-based, relying on predefined business rules and logic to ensure compliance and transparency in verifying structured data like names and addresses. As a result, machine learning (ML) is not used for identity verification. However, Trulioo's document verification process employs AI/ML techniques to detect tampering, validate security features, and process image data more effectively. 
+Personal Information: Name, address, date of birth, and other identification details collected during onboarding.
+Government-Issued Documents: National IDs, passports, and driver’s licenses to validate official identity records.
+Data Sources: Inputs are compared against trusted data sources like credit bureaus, national databases, and watchlists.
