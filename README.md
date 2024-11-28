@@ -1,11 +1,4 @@
 # kritika-s
 Kirtika
 
-The Trulioo eIDV process relies on a rule-based system rather than machine learning or statistical models, making traditional model explainability testing less applicable. However, explainability is inherently built into the process through the use of explicit business rules and transparent decision logic.
-
-Key aspects of explainability include:
-
-Predefined Rules: The rules for data matching, such as verifying names, addresses, and dates of birth against trusted data sources, are clearly documented and auditable.
-Match Criteria: The system provides detailed field-level match information for each data source, helping clients understand why a specific output (e.g., Verified, Not Verified, or Attention) was produced.
-Client Reporting: Through the Global Gateway Portal, clients can access verification outcomes that highlight matches per field and data source, ensuring transparency in decision-making.
-Manual Review: For ambiguous or incomplete results, human experts can intervene and make adjustments, ensuring that subjective decisions are also well-documented and explainable. 
+In the Trulioo eIDV process, benchmarking results are designed to be comparable across different datasets and implementations. However, due to variability in client-specific rule sets, data demographics, and the availability of data sources, the results may not be exactly the same in all cases. This variability ensures that benchmarking reflects realistic performance under diverse conditions while highlighting areas for potential optimization in specific use cases.
