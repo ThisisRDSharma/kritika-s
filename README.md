@@ -2,10 +2,7 @@
 Kirtika
 
 
-For the Trulioo eIDV process, there are no traditional model formulas or algorithms used, as the system is based on rule-based logic rather than machine learning or statistical modeling. Therefore, there are no complex numerical techniques or formulas, such as regression equations, decision trees, or clustering algorithms, typically associated with predictive modeling.
-
-Instead, the eIDV process operates through predefined business rules applied to incoming data. These rules determine whether a given identity matches or is verified based on information such as personal details, government-issued documents, and external data sources. 
-
+In the Trulioo eIDV process, user-selectable settings refer to parameters or options that can be customized by the client to tailor the identity verification process according to their specific needs and business requirements. While the Trulioo eIDV process is primarily a rule-based system, certain aspects of the process can be adjusted to fit client use cases.
 
 
 
