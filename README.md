@@ -1,6 +1,5 @@
 # kritika-s
 Kirtika
 
-Trulioo customizes onboarding workflows to align with your specific verification needs. 
-The development data for the Trulioo eIDV process is highly relevant to its intended use, aligning closely with the organization's compliance and customer verification objectives. The **Global Gateway** provides extensive coverage of global AML risk data, including sanctions lists (OFAC, UN, HMT, EU, DFAT), law enforcement lists (e.g., INTERPOL and government agencies), and regulatory bodies (e.g., financial and securities commissions). This ensures the data's applicability to diverse international jurisdictions and supports compliance with KYC and AML requirements. Furthermore, the model collects government-issued identification information for onboarding new international customers, with escalations to BSA and OFAC teams for anomaly reviews, demonstrating its alignment with the organization's operational and regulatory needs.
+Trulioo's Global Gateway integrates diverse data sources based on country and product requirements, ensuring comprehensive coverage for identity verification. These data sources include credit bureaus, consumer data, tele-connect services, property files, mobile ID records, and watch lists. The data is categorized into Category 1, Category 2, and Category 3, reflecting variations in source coverage and quality across different regions.
 
