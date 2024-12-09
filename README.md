@@ -1,5 +1,4 @@
 # kritika-s
 Kirtika
 
-Trulioo's Global Gateway integrates diverse data sources based on country and product requirements, ensuring comprehensive coverage for identity verification. These data sources include credit bureaus, consumer data, tele-connect services, property files, mobile ID records, and watch lists. The data is categorized into Category 1, Category 2, and Category 3, reflecting variations in source coverage and quality across different regions.
-
+Although the Trulioo eIDV process is not a traditional predictive model, it functions as a rule-based tool for identity verification. Below is the working structure of the process:
