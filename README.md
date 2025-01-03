@@ -1,12 +1,9 @@
 # kritika-s
 Kirtika
 
-Although the Trulioo eIDV process is not a traditional predictive model, it functions as a rule-based tool for identity verification. Below is the working structure of the process:
-The ID verification tool uses Trulioo's Global Gateway database, a comprehensive repository of global data sources, to validate user-provided information. The rule-based system cross-references input details like name, address, and date of birth against this database to produce verification results.
 
-Verification Outcomes:
+FIS® SecurLOCK™ is a comprehensive card fraud management solution that integrates the FICO® Falcon® platform to enhance its fraud detection and prevention capabilities. By leveraging FICO's advanced artificial intelligence and machine learning technologies, SecurLOCK™ analyzes vast amounts of transaction data to identify and mitigate fraudulent activities effectively. 
 
-Match: Input data aligns completely with Global Gateway records.
-No Match: Discrepancies exist between the input and database information.
-Missing: Certain fields are incomplete or unavailable in the database.
-Hidden: Data exists but is restricted due to privacy or regulatory limitations.
+This integration enables SecurLOCK™ to provide financial institutions with real-time scoring, higher fraud detection rates, and lower fraud losses. The solution offers real-time transactional monitoring to identify and mitigate fraud with speed and accuracy.
+
+By combining FIS's proprietary rules and logic with the analytical capabilities of the FICO Falcon platform, SecurLOCK™ delivers a robust defense against card fraud, helping institutions protect themselves and their customers from financial and reputational damage.
