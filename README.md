@@ -2,4 +2,4 @@
 Kirtika
 
 
- input variables can be referred to as explanatory variables in a model development process, as they are the features or predictors used to explain variations in the target variable (dependent variable).
+ FIS Secure Lock relies on adaptive analytics and real-time decision-making, which depends on current fraud trends. Financial institutions face evolving threats from sophisticated fraudsters who continuously modify their tactics
