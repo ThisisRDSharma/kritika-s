@@ -2,5 +2,5 @@
 Kirtika
 
 
-FIS Secure Lock uses a combination of rule-based logic and machine learning, while FICO Falcon predominantly relies on machine learning (ML), specifically neural networks, to detect fraud based on global patterns and adaptive analytics.
-Together, these systems complement each other: FIS Secure Lock offers flexibility and control with rules and tailored models, while FICO Falcon provides a broad, industry-wide fraud detection capability using advanced ML.
+Limited Applicability: The model is tailored for specific product types, geographies, and transaction types. Applying the model to other segments can lead to unreliable results, as it may not capture the unique characteristics or risks associated with those segments.
+Performance Degradation: Significant changes to the product portfolio or transaction types could cause the model's predictive accuracy to decline, potentially leading to false positives or missed fraud cases.
