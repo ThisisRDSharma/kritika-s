@@ -1,39 +1,60 @@
-# kritika-s
-Kirtika
+**Escalation**
+
+ased on the severity of the situation and elapsed downtime, the Enterprise Business ContinuityOffi ce can activate the Enterprise Crisis Management Plan.
+
+**Application Configuration**
+
+**Name**
+FIS - SecurLock / Falcon Fraud Manager
+
+**Description**
+
+SecurLOCK is transaction monitoring in tiers to provide global level evaluation with flexibility tocreate a customized portfolio level fraudmitigation program. FIS SecurLock Predict isused for credit, debit, and prepaid frauddetection and operates as a heuristic neuralnetwork software solution. It assesses thelikelihood of a transaction being fraudulent by scoring the transaction against industry widemodels and cardholder specifi c profi le metrics.The software assigns a score to the transaction,with higher scores being more likely to befraudulent. The software suite also includes acase management component. No users with access.
+
+**Recovery Team**
+
+The Recovery Team is responsible for recovery of this application and/or coordinating with theapplication vendor that is managing application recovery.
+
+**Recovery Team Communication**
+
+Throughout the recovery eff ort, the Recovery Team should remain in contact. Beloware communication methods the Recovery Team may use:
+
+1. Microsoft Teams Meeting:
+Generate a Teams meeting at time of event
+2. Zoom:
+Generate a Zoom meeting at time of event
+3. Other:
+Conference call, In-person meeting
+
+**IT Tech Steps PLAYBOOK - RecoveryProcedures to DR Environment**
+
+Insert procedure(s), including reference to existing document(s) regarding the process to failover,restart, or recover the application and prepare for technical validation testing. Include the teammember responsible for each step in the Role fi eld and enter the amount of time (in minutes) thateach step would take in the Duration fi eld.
+
+Technical Validation Procedures inDR Environment
+These are the tasks to perform the technical validation of this application once it has been recoveredin the DR environment and prepare it for business validation testing.
+Insert procedure(s), including reference to existing document(s), regarding the process to perform thesystem checks necessary to ensure the application is operating / processing completely / accuratelyand that data is restored within expectations. Include the team member responsible for each step inthe Role fi eld and enter the amount of time (in minutes) that each step would take in the Durationfi eld.
+
+Business Unit Validation Proceduresin DR Environment
+This section of the plan includes the process and methods of how the business will verify thatthe application is operating appropriately within the DR environment and within data loss tolerances.
+Include each business unit department that needs to perform business validation. Insert procedure(s)specifi c to that business unit department. Include the team member responsible for each step in theRole fi eld and enter the amount of time (in minutes) that each step would take in the Duration fi eld.
+
+IT Tech Steps PLAYBOOK -Procedures to Return to Business asUsual (BAU)
+This section addresses the procedures necessary to move the application from the DR environmentback to the primary data center.
+Insert procedure(s), including reference to existing document(s) or other plans, regarding the processto transition from the recovery location to the original location without leading to unexpecteddowntime and without introducing security risks. Be sure to address how you will communicate withthe end user and make them aware of the move. Include the team member responsible for each stepin the Role fi eld and enter the amount of time (in minutes) that each step would take in the Durationfi eld.
+
+Technical Validation Proceduresback in Primary Data Center
+These are the tasks to perform the technical validation of this application once it has been movedback from the DR environment to the primary data center and prepare it for business validationtesting.
+Insert procedure(s), including reference to existing document(s), regarding the process to perform thesystem checks necessary to ensure the application is operating / processing completely / accuratelyand that data is restored within expectations. Include the team member responsible for each step inthe Role fi eld and enter the amount of time (in minutes) that each step would take in the Durationfi eld.
+
+Business Unit Validation Proceduresback in Primary Data Center
+This section of the plan includes the process and methods of how the business will verify thatthe application is operating appropriately once it has been moved back from the DR environment tothe primary data center and within data loss tolerances.
+Include each business unit department that needs to perform business validation. Insert procedure(s)specifi c to that business unit department. Include the team member responsible for each step in theRole fi eld and enter the amount of time (in minutes) that each step would take in the Duration fi eld.
 
 
-While specific proprietary details about NNet08 are limited, general assumptions applicable to neural networks, particularly in fraud detection contexts, include:
 
-Data Quality and Preprocessing:
 
-Assumption: The input data is accurately labeled, clean, and preprocessed to remove noise and inconsistencies.
-Implication: High-quality data is crucial for the neural network to learn meaningful patterns and make accurate predictions.
-Feature Relevance and Engineering:
 
-Assumption: The selected features (e.g., transaction amount, location, time) are relevant and have predictive power for detecting fraudulent activities.
-Implication: Proper feature selection and engineering enhance the model's ability to distinguish between legitimate and fraudulent transactions.
-Data Distribution:
 
-Assumption: The training data distribution is representative of the real-world scenarios the model will encounter, including the proportion of fraudulent to non-fraudulent transactions.
-Implication: A representative dataset ensures the model generalizes well to unseen data and maintains performance consistency.
-Model Complexity and Regularization:
 
-Assumption: The neural network's architecture, including the number of layers and neurons, is appropriately complex for the problem, with regularization techniques applied to prevent overfitting.
-Implication: Balanced model complexity and regularization help in capturing underlying patterns without fitting to noise, ensuring better performance on new data.
-Training Stability and Convergence:
 
-Assumption: The training process is stable, with appropriate learning rates and convergence criteria, ensuring the model reaches an optimal solution.
-Implication: Stable training leads to a reliable model that performs consistently across various datasets.
-Interpretability and Monotonicity:
 
-Assumption: The model's outputs are interpretable, and certain features exhibit monotonic relationships with the prediction outcome, enhancing trust and compliance with regulatory standards.
-Implication: Ensuring monotonicity and interpretability aids in understanding model decisions, which is crucial in financial contexts.
-Incorporating These Assumptions into the MDR:
-
-Assumption Identification: Clearly list and describe each assumption related to NNet08, as outlined above.
-
-Validation Methods: Detail the methods used to test each assumption, such as data quality assessments, feature importance analysis, and training stability monitoring.
-
-Results and Findings: Present the outcomes of the assumption testing, including any identified issues and the steps taken to address them.
-
-Impact Analysis: Discuss how each assumption and its validation affect the model's performance, reliability, and applicability to fraud detection.
