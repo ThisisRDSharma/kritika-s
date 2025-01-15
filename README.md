@@ -1,21 +1,11 @@
-Escalation
-In case of significant downtime or severe disruption, the Enterprise Business Continuity Office will activate the Enterprise Crisis Management Plan.
+Return to Business as Usual (BAU)
+IT Technical Steps to BAU
 
-Application Overview
-FIS SecurLock Predict is a heuristic neural network software for credit, debit, and prepaid fraud detection. It scores transactions for fraud likelihood using global and portfolio-specific metrics. The suite includes a transaction monitoring system and case management component.
+Transition the application from the DR environment to the primary data center without introducing security risks or unexpected downtime.
+Includes communication plans to inform end-users about the migration.
+Technical Validation in Primary Data Center
 
-Key Recovery Processes
-Recovery Team
-Responsible for coordinating and recovering the application in collaboration with the application vendor.
+Post-migration system checks to ensure accurate processing and restored data integrity.
+Business Unit Validation in Primary Data Center
 
-Recovery Team Communication
-Communication channels include:
-Microsoft Teams or Zoom meetings.
-Other options like conference calls or in-person meetings.
-
-
-
-
-
-
-
+Business teams confirm the application’s appropriate functionality and adherence to data loss tolerances post-return to the primary data center.
