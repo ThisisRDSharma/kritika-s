@@ -1,3 +1,1 @@
-Out-of-time validation is a standard approach to assess model performance by testing it on data from a time period outside of the training dataset. This helps evaluate how well the model generalizes to unseen data.
-
-However, in the case of consortium-based models, such as those used by FICO Falcon Fraud Manager, out-of-time validation is not typically performed. This is because consortium models leverage aggregated and anonymized data from multiple institutions, spanning diverse time periods and geographies. These models are inherently designed to capture generalized patterns across a wide range of historical data, making traditional out-of-time validation less critical.
+To evaluate the in-sample performance and avoid overfitting, cross-validation using in-time holdout data is employed.
