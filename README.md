@@ -1,1 +1,3 @@
-Information regarding the specific software or platform used for data preparation is not provided in the available documentation. While the Falcon US Credit 28.0 and Debit 26.0 models are trained using data from the Falcon Fraud Intelligence Network, details on the tools or systems used for data preprocessing, transformation, and integration is unavailable.
+Regular assessments should be conducted to evaluate whether the model is leveraging a sufficiently diverse and representative dataset for fraud detection. Any gaps or limitations in data sources should be identified and addressed through periodic reviews.
+
+If discrepancies are observed, further analysis should be performed to assess the impact on model performance, and corrective actions should be considered.
