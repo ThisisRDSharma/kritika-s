@@ -1,1 +1,1 @@
- For Falcon Fraud Manager, the Falcon US Credit 28.0 and Debit 26.0 models utilize data from the Falcon Fraud Consortium data, which includes credit and debit card transaction data from U.S. issuers. 
+Information regarding the specific software or platform used for data preparation is not provided in the available documentation. While the Falcon US Credit 28.0 and Debit 26.0 models are trained using data from the Falcon Fraud Intelligence Network, details on the tools or systems used for data preprocessing, transformation, and integration is unavailable.
