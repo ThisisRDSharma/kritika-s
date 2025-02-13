@@ -1,1 +1,1 @@
-To mitigate risks associated with sub-optimal performance due to data limitations, a robust monitoring framework should be established. Ongoing performance evaluations should assess the impact of data issues on model outputs, ensuring continuous improvements and alignment with operational requirements.
+ For Falcon Fraud Manager, the Falcon US Credit 28.0 and Debit 26.0 models utilize data from the Falcon Fraud Consortium data, which includes credit and debit card transaction data from U.S. issuers. 
