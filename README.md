@@ -1,3 +1,10 @@
-The Model Access and Security section typically outlines how access is granted, monitored, and restricted to authorized personnel to prevent unauthorized modifications or misuse.
+Hello Charles,
 
-However, no specific information regarding model access controls, security protocols, or related safeguards has been provided in the available documentation.
+Good day to you.
+
+I appreciate your time and support in providing the necessary details for the model documentation. As part of the ongoing discussion, could you please share information on model access & security and model key stakeholders for FIS SecurLock? These aspects were outlined in the requirement list shared earlier.
+
+Please let me know if any clarifications are needed.
+
+Best regards,
+Rishabh Dutt
