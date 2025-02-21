@@ -1,1 +1,5 @@
+hyper parameter truning
 Beyond these, no additional hyperparameter tuning is applied, as the model primarily relies on the structured architecture of the FICO Falcon framework for its fraud detection capabilities. The focus remains on ensuring that weight updates and error propagation are optimized to improve fraud classification accuracy.
+
+vendor modle tuning
+The FIS SecuRLock model, based on the FICO Falcon framework, primarily utilizes vendor-defined configurations for tuning. The model’s optimization is centered on rule and threshold adjustments, which allow fine-tuning of fraud detection parameters to align with varying fraud patterns. Additionally, it leverages backpropagation-based weight optimization, a vendor-implemented process that refines weight updates to enhance fraud classification accuracy. Beyond these adjustments, no additional hyperparameter tuning is performed, as the model relies on the pre-configured optimization mechanisms provided within the FICO Falcon framework to ensure efficient and adaptive fraud detection.
