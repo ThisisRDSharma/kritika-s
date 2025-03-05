@@ -1,1 +1,1 @@
-"In-sample performance fit results are not provided as they are proprietary in nature, given that this is a vendor model."
+FIS fraud analysts in identifies fraud patterns across all customers and developing rules to enhance fraud detection. These analysts create targeted detection rules to identify and prevent fraudulent transactions that may fall below the score threshold set by FIS, ensuring a more robust fraud prevention framework.
