@@ -1,6 +1,1 @@
-1️⃣ Load Rules – Retrieves fraud detection rules, including overdraft limits, customer-tier restrictions, and wire transfer rules.
-2️⃣ Execute Rules – Runs the transaction against these rules using Cosmos DB.
-3️⃣ Calculate Risk Score – Assigns a risk score based on fraud patterns; transactions exceeding the threshold are flagged.
-4️⃣ Determine Action – Aggregates risk scores to decide whether to approve, flag, or recommend further review.
-
-This process ensures efficient fraud detection by leveraging rule-based assessments and risk scoring.
+The described system operates as a rule-based tool rather than a statistical or machine learning model, classifying it as a non-model. It does not involve predictive analysis, generate risk probabilities, or adapt based on historical data. Instead, all modifications and updates occur through manual adjustments to predefined rules. The system determines verification outcomes by applying these static rules rather than employing adaptive modeling techniques, further confirming its classification as a non-model under standard risk and model governance frameworks.
