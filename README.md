@@ -1,1 +1,8 @@
-The described system operates as a rule-based tool rather than a statistical or machine learning model, classifying it as a non-model. It does not involve predictive analysis, generate risk probabilities, or adapt based on historical data. Instead, all modifications and updates occur through manual adjustments to predefined rules. The system determines verification outcomes by applying these static rules rather than employing adaptive modeling techniques, further confirming its classification as a non-model under standard risk and model governance frameworks.
+Securlock Predict features a customizable rule set that allows financial institutions to control implemented strategies and adjust the false positive ratio according to their risk tolerance.
+
+
+
+
+
+
+
