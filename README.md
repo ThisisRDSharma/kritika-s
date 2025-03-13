@@ -1,5 +1,4 @@
-Securlock Predict features a customizable rule set that enables financial institutions to tailor their fraud prevention strategies and set their desired false positive ratio.
-
+The document below provides a list of independent variables along with their explanations used in the FICO Falcon model for debit and credit card transactions.
 
 
 
