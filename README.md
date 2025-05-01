@@ -1,6 +1,4 @@
-Azure Fraud Rules is an in-house, rule-based solution designed to detect and prevent fraud across key stages of the digital banking lifecycle. Unlike AI/ML models, it relies on predefined statistical rules and criteria to flag suspicious behavior. The rules are crafted to target risks during account onboarding, user authentication, and transaction processing. This system provides a transparent and controlled approach to fraud detection. It is actively monitored and periodically refined to either reduce false positives or enhance fraud capture. The framework supports both operational efficiency and compliance with regulatory standards.
-
-The objective of this document is to monitor and evaluate the performance of Azure Fraud Rules in detecting and mitigating fraud across digital banking touchpoints. It ensures the rules remain effective, relevant, and aligned with regulatory and business requirements. This document also incorporates a RAG (Red-Amber-Green) status framework to assess the health of individual rules—where Red indicates underperformance or high false positives, Amber signals moderate concern or need for review, and Green reflects optimal performance—facilitating timely tuning and strategic oversight.
-
-
-
+Status	Relative Change	Interpretation
+🟢 Green	Within ±20% of dev (33.6% to 50.4%)	Normal variance or improvement — no issue
+🟠 Amber	±20% to ±30% (29.4% to 33.5% or 50.5% to 54.6%)	Moderate shift — monitor rule behavior and user impact
+🔴 Red	>±30% (<29.4% or >54.6%)	Significant deviation — investigate possible rule drift or fraud spikes
